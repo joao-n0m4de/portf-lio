@@ -35,4 +35,18 @@ No GitHub Pages:
 
 ## Conteúdo
 
-As informações foram consolidadas a partir do perfil do LinkedIn exportado em PDF e dos quatro repositórios públicos do GitHub. O telefone foi omitido por privacidade. Python, C# e análise de dados aparecem como conhecimentos em evolução, pois ainda não há projetos públicos nessas tecnologias no perfil analisado.
+Apresentação voltada a sites sob encomenda, consultoria e vagas remotas, com disponibilidade total informada pelo autor. Trajetória conferida no currículo fornecido. O PDF em `assets/curriculo-joao-victor.pdf` é o documento original fornecido para download e contém os contatos do autor. O avatar ilustrado foi obtido do perfil público do GitHub; não é uma fotografia profissional.
+
+## Estudos de caso e demonstrações
+
+`projetos/` contém quatro estudos de caso e demos em JavaScript, com registros fictícios, busca, ações e download CSV. São simulações simplificadas, identificadas na interface, sem banco ou API. Não representam sessões dos sistemas originais. As alterações são reiniciadas ao recarregar a página. Não há credenciais ou dados de clientes.
+
+Os dois primeiros projetos aparecem em destaque. A captura de Cancelamentos mostra a interface original executada localmente sem consultar a API. As outras prévias mostram as simulações do portfólio. Os casos descrevem resultados funcionais; não atribuem ganhos de produtividade não medidos.
+
+## Imagem de compartilhamento
+
+`assets/social.png` é a capa Open Graph de 1200 × 630 pixels. Seu layout editável está em `assets/social.html` e pode ser capturado em um navegador nessa resolução.
+
+## Atualizações
+
+O GitHub Pages publica automaticamente a raiz da branch `main`. Envie um commit e acompanhe o deploy em Actions/Pages. Não há etapa de build. Para conferir: abra o site em desktop e celular, navegue pelos quatro casos, teste busca/ação/reinício/exportação e baixe o currículo.

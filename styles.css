@@ -851,6 +851,19 @@ ul {
   font-size: 0.9rem;
 }
 
+/* Portfolio evidence and case studies */
+.profile-avatar { border-radius:24px; margin-bottom:28px; background:var(--dark); object-fit:cover; }
+.project-capture { display:flex; flex-direction:column; justify-content:center; padding:24px; background:#edf1ff; min-width:0; }
+.project-capture img { width:100%; height:auto; border:1px solid var(--line); border-radius:12px; }
+.project-capture span { margin-top:12px; font-size:.75rem; color:var(--ink-soft); }
+.project-links { display:flex; gap:18px; align-items:center; flex-wrap:wrap; margin-top:24px; }
+.case-summary { font-size:.92rem; }
+.other-projects-title { margin:64px 0 24px; font-size:1.7rem; }
+.secondary-projects { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.secondary-projects .project-card { display:flex; flex-direction:column; min-height:0; }
+.secondary-projects .project-content { padding:28px; }
+@media(max-width:900px) { .secondary-projects { grid-template-columns:1fr; } }
+
 /* Projects */
 
 .projects {
