@@ -32,8 +32,9 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101828'/%3E%3Cpath d='M17 18v19c0 7 4 11 11 11' fill='none' stroke='%23fff' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='m31 18 7 30 9-30' fill='none' stroke='%232f6bff' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <link rel="icon" type="image/jpeg" href="assets/brand/sass-logo.jpeg" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="brand.css" />
     <script src="script.js" defer></script>
 
     <script type="application/ld+json">
@@ -79,10 +80,10 @@
     <header class="site-header" data-header>
       <div class="container header-inner">
         <a class="brand" href="#inicio" aria-label="Voltar ao início">
-          <span class="brand-mark">JV</span>
+          <img class="sass-logo" src="assets/brand/sass-logo.jpeg" width="1254" height="1254" alt="SASS" />
           <span class="brand-copy">
-            <strong>João Victor</strong>
-            <small>infra / software</small>
+            <strong>SASS.DEV</strong>
+            <small>por João Victor</small>
           </span>
         </a>
 
@@ -149,78 +150,10 @@
             </div>
           </div>
 
-          <figure class="operations-map reveal" data-reveal-delay="2">
-            <figcaption class="map-header">
-              <span>
-                <small>Mapa de atuação</small>
-                Operação → Produto
-              </span>
-              <span class="map-status"><i></i> rota ativa</span>
-            </figcaption>
-
-            <div class="map-canvas">
-              <svg viewBox="0 0 640 470" role="img" aria-labelledby="map-title map-desc">
-                <title id="map-title">Fluxo entre infraestrutura e desenvolvimento</title>
-                <desc id="map-desc">
-                  Diagrama conectando rede, diagnóstico, aplicação e resultado.
-                </desc>
-                <defs>
-                  <pattern id="dot-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-                    <circle cx="2" cy="2" r="1.5" fill="#d9dde6"></circle>
-                  </pattern>
-                  <filter id="node-shadow" x="-30%" y="-30%" width="160%" height="160%">
-                    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#101828" flood-opacity="0.10" />
-                  </filter>
-                </defs>
-                <rect width="640" height="470" rx="24" fill="url(#dot-grid)"></rect>
-
-                <path class="route route-muted" d="M105 122 C190 122 185 235 285 235 S390 347 515 347"></path>
-                <path class="route route-active" d="M105 122 C190 122 185 235 285 235 S390 347 515 347"></path>
-                <path class="route route-branch" d="M285 235 C365 235 372 122 485 122"></path>
-
-                <g class="map-node" transform="translate(42 75)" filter="url(#node-shadow)">
-                  <rect width="142" height="94" rx="18" fill="#ffffff"></rect>
-                  <circle cx="24" cy="25" r="7" fill="#2f6bff"></circle>
-                  <text x="41" y="30" class="node-code">01 / REDE</text>
-                  <text x="24" y="63" class="node-label">Sinal</text>
-                  <text x="24" y="79" class="node-detail">GPON · backbone</text>
-                </g>
-
-                <g class="map-node" transform="translate(214 188)" filter="url(#node-shadow)">
-                  <rect width="158" height="96" rx="18" fill="#101828"></rect>
-                  <circle cx="25" cy="25" r="7" fill="#ff6b3d"></circle>
-                  <text x="42" y="30" class="node-code node-code-light">02 / ANÁLISE</text>
-                  <text x="25" y="64" class="node-label node-label-light">Diagnóstico</text>
-                  <text x="25" y="81" class="node-detail node-detail-light">incidente · SLA</text>
-                </g>
-
-                <g class="map-node" transform="translate(414 75)" filter="url(#node-shadow)">
-                  <rect width="168" height="94" rx="18" fill="#ffffff"></rect>
-                  <circle cx="25" cy="25" r="7" fill="#2f6bff"></circle>
-                  <text x="42" y="30" class="node-code">03 / BUILD</text>
-                  <text x="25" y="63" class="node-label">Aplicação</text>
-                  <text x="25" y="79" class="node-detail">PHP · JS · MySQL</text>
-                </g>
-
-                <g class="map-node" transform="translate(439 300)" filter="url(#node-shadow)">
-                  <rect width="156" height="96" rx="18" fill="#2f6bff"></rect>
-                  <circle cx="25" cy="25" r="7" fill="#ffffff"></circle>
-                  <text x="42" y="30" class="node-code node-code-light">04 / ENTREGA</text>
-                  <text x="25" y="64" class="node-label node-label-light">Resultado</text>
-                  <text x="25" y="81" class="node-detail node-detail-light">processo mais claro</text>
-                </g>
-
-                <circle class="signal-dot signal-dot-one" cx="105" cy="122" r="6"></circle>
-                <circle class="signal-dot signal-dot-two" cx="285" cy="235" r="6"></circle>
-                <circle class="signal-dot signal-dot-three" cx="515" cy="347" r="6"></circle>
-              </svg>
-            </div>
-
-            <div class="map-footer">
-              <span><i class="legend-blue"></i> desenvolvimento</span>
-              <span><i class="legend-orange"></i> atenção operacional</span>
-              <span class="map-ref">JV / 2026</span>
-            </div>
+          <figure class="sass-hero reveal" data-reveal-delay="2">
+            <div class="sass-hero-label"><span class="sass-dot"></span> SASS.DEV / DA IDEIA AO CÓDIGO</div>
+            <img src="assets/brand/mascote-programando.jpeg" width="1254" height="1254" alt="Mascote da SASS: pinguim de óculos e headset programando em um notebook" fetchpriority="high" />
+            <figcaption>Seu próximo projeto começa com uma boa conversa.<a href="#contato">Vamos construir juntos ↗</a></figcaption>
           </figure>
         </div>
 
@@ -290,16 +223,19 @@
           <div class="principles-grid">
             <article class="principle-card reveal">
               <span>01</span>
+              <img class="sass-service-mascot" src="assets/brand/mascote-apresentando.jpeg" width="1254" height="1254" alt="" loading="lazy" />
               <h3>Sites sob encomenda</h3>
               <p>Sites institucionais, portfólios e páginas para apresentar seu negócio, com layout responsivo e contato acessível.</p>
             </article>
             <article class="principle-card reveal" data-reveal-delay="1">
               <span>02</span>
+              <img class="sass-service-mascot" src="assets/brand/mascote-aprovando.jpeg" width="1254" height="1254" alt="" loading="lazy" />
               <h3>Sistemas e automação</h3>
               <p>Ferramentas para organizar cadastros, acompanhar processos e transformar dados em relatórios úteis.</p>
             </article>
             <article class="principle-card reveal" data-reveal-delay="2">
               <span>03</span>
+              <img class="sass-service-mascot" src="assets/brand/mascote-pensando.jpeg" width="1254" height="1254" alt="" loading="lazy" />
               <h3>Consultoria remota</h3>
               <p>Diagnóstico de necessidades e orientação em tecnologia, conectando experiência de infraestrutura e desenvolvimento.</p>
             </article>
@@ -537,6 +473,7 @@
           <span></span><span></span><span></span><span></span>
         </div>
         <div class="container contact-inner">
+          <img class="sass-contact-mascot" src="assets/brand/mascote-celebrando.jpeg" width="1254" height="1254" alt="Mascote da SASS celebrando um novo projeto" loading="lazy" />
           <span class="contact-kicker reveal">05 / CONTATO</span>
           <h2 id="contact-title" class="reveal">
             Vamos tirar seu site ou sistema do papel?
@@ -575,8 +512,8 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <a class="brand brand-footer" href="#inicio" aria-label="Voltar ao início">
-          <span class="brand-mark">JV</span>
-          <span class="brand-copy"><strong>João Victor</strong><small>infra / software</small></span>
+          <img class="sass-logo" src="assets/brand/sass-logo.jpeg" width="1254" height="1254" alt="SASS" loading="lazy" />
+          <span class="brand-copy"><strong>SASS.DEV</strong><small>por João Victor</small></span>
         </a>
         <p>Projetado para conectar experiência real e software.</p>
         <span>© <span data-year>2026</span></span>

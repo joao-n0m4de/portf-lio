@@ -47,6 +47,10 @@ Os dois primeiros projetos aparecem em destaque. A captura de Cancelamentos most
 
 `assets/social.png` é a capa Open Graph de 1200 × 630 pixels. Seu layout editável está em `assets/social.html` e pode ser capturado em um navegador nessa resolução.
 
+## Identidade SASS.DEV
+
+Logo oficial e cinco poses do mascote fornecidos pelo autor em 10/09/2026. Os JPEGs originais estão em `assets/brand/`, sem redesenho ou remoção de fundo. `brand.css` integra as artes em painéis pretos: logo no cabeçalho, rodapé e estudos de caso; mascotes na abertura, serviços e contato. A trajetória e o currículo continuam identificando João Victor.
+
 ## Atualizações
 
 O GitHub Pages publica automaticamente a raiz da branch `main`. Envie um commit e acompanhe o deploy em Actions/Pages. Não há etapa de build. Para conferir: abra o site em desktop e celular, navegue pelos quatro casos, teste busca/ação/reinício/exportação e baixe o currículo.
