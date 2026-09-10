@@ -1,16 +1,16 @@
-/* Original SASS artwork supplied by the owner. Black backgrounds are intentional. */
-.sass-logo { display:block; width:76px; height:76px; flex-shrink:0; object-fit:contain; border-radius:14px; background:#000; }
+/* Transparent PNG variants of the official SASS artwork. */
+.sass-logo { display:block; width:76px; height:76px; flex-shrink:0; object-fit:contain; border-radius:14px; background:transparent; }
 .brand-copy strong { letter-spacing:.04em; }
-.sass-hero { margin:0; min-width:0; overflow:hidden; border-radius:28px; background:#000; color:#fff; border:1px solid #242a2a; box-shadow:0 24px 70px rgba(16,24,40,.12); }
-.sass-hero-label { padding:24px 26px 0; display:flex; align-items:center; gap:10px; font:500 .7rem var(--mono); letter-spacing:.08em; color:#d8e3dc; }
+.sass-hero { margin:0; min-width:0; overflow:hidden; border-radius:28px; background:transparent; color:var(--ink); border:0; box-shadow:none; }
+.sass-hero-label { padding:24px 26px 0; display:flex; align-items:center; gap:10px; font:500 .7rem var(--mono); letter-spacing:.08em; color:var(--ink-soft); }
 .sass-dot { width:7px; height:7px; background:#00ed59; border-radius:50%; flex-shrink:0; }
 .sass-hero > img { display:block; width:100%; height:auto; }
-.sass-hero figcaption { padding:0 26px 26px; font-size:.85rem; color:#c9d3cd; }
-.sass-hero figcaption a { display:block; color:#00ed59; font-weight:700; margin-top:10px; }
-.sass-service-mascot { width:112px; height:112px; object-fit:contain; background:#000; border-radius:20px; margin:0 0 24px; }
-.sass-contact-mascot { width:168px; height:168px; object-fit:contain; background:#000; border-radius:28px; margin-bottom:28px; }
+.sass-hero figcaption { padding:0 26px 26px; font-size:.85rem; color:var(--ink-soft); }
+.sass-hero figcaption a { display:block; color:#087a37; font-weight:700; margin-top:10px; }
+.sass-service-mascot { width:112px; height:112px; object-fit:contain; background:transparent; border-radius:20px; margin:0 0 24px; }
+.sass-contact-mascot { width:168px; height:168px; object-fit:contain; background:transparent; border-radius:28px; margin-bottom:28px; }
 .sass-case-logo { display:flex; align-items:center; gap:12px; }
-.sass-case-logo img { width:56px; height:56px; object-fit:contain; border-radius:10px; background:#000; }
+.sass-case-logo img { width:56px; height:56px; object-fit:contain; border-radius:10px; background:transparent; }
 @media(max-width:1100px) { .sass-hero { width:min(100%,520px); justify-self:center; } }
 @media(max-width:900px) { .sass-logo { width:60px; height:60px; } }
 @media(max-width:640px) { .sass-hero-label { font-size:.58rem; padding:20px 20px 0; } .sass-hero figcaption { padding:0 20px 22px; } .sass-contact-mascot { width:128px; height:128px; } }

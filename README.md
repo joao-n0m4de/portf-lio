@@ -49,7 +49,7 @@ Os dois primeiros projetos aparecem em destaque. A captura de Cancelamentos most
 
 ## Identidade SASS.DEV
 
-Logo oficial e cinco poses do mascote fornecidos pelo autor em 10/09/2026. Os JPEGs originais estão em `assets/brand/`, sem redesenho ou remoção de fundo. `brand.css` integra as artes em painéis pretos: logo no cabeçalho, rodapé e estudos de caso; mascotes na abertura, serviços e contato. A trajetória e o currículo continuam identificando João Victor.
+Logo oficial e cinco poses do mascote fornecidos pelo autor em 10/09/2026. Os JPEGs originais foram preservados em `assets/brand/`. O site utiliza as versões PNG com transparência, preparadas com a ferramenta integrada de edição de imagens. `brand.css` integra as artes sem caixas pretas: logo no cabeçalho, rodapé e estudos de caso; mascotes na abertura, serviços e contato. A trajetória e o currículo continuam identificando João Victor. Detalhes e prompt em `assets/brand/TRANSPARENCIA.md`.
 
 ## Atualizações
 
